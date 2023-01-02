@@ -1,6 +1,5 @@
-# ansible-ara-cmdb-docker
+# ansible-ara
 
-Run ansible playbooks with ARA log recording and generate an on-the-fly dashboard using CMDB.
+Run ansible playbooks with ARA log recording
 
 - [ARA records ansble](https://github.com/ansible-community/ara)
-- [Ansible CMDB](https://github.com/fboender/ansible-cmdb)
