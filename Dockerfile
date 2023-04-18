@@ -1,4 +1,4 @@
-FROM ubuntu:latest as ansible
+FROM ubuntu:22.10 as ansible
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV ANSIBLE_VAULT_PASSWORD_FILE="{{CWD}}/.vault_pass"
